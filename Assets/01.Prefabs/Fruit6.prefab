@@ -14,9 +14,9 @@ GameObject:
   - component: {fileID: 3356626749248007527}
   - component: {fileID: 8572464769541317217}
   - component: {fileID: 8722605294027037279}
-  - component: {fileID: -7634782947143165732}
+  - component: {fileID: 6569429644484859915}
   m_Layer: 0
-  m_Name: Fruit1
+  m_Name: Fruit6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 931b77d306bd09c45b66a333514cd6ae, type: 2}
+  - {fileID: 2100000, guid: 1b1fbba9a309bda4f8da2e514df111b3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -156,7 +156,7 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-7634782947143165732
+--- !u!114 &6569429644484859915
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -168,6 +168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9042fbbe54d4cbf40b93a1eebfca365f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruitLevel: 1
-  nextFruitPrefab: {fileID: 7008639206170433003, guid: e83d0d5a423a95242a62cff544b243f7, type: 3}
+  fruitLevel: 6
+  nextFruitPrefab: {fileID: 0}
   mergeEffectPrefab: {fileID: 0}

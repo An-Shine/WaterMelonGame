@@ -648,7 +648,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41705a6d47e843849864429208f201c6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruitPrefab: {fileID: 7008639206170433003, guid: 182b6f635bb7e9348aa310f529ac5d80, type: 3}
+  spawnableFruits:
+  - {fileID: 7008639206170433003, guid: 182b6f635bb7e9348aa310f529ac5d80, type: 3}
+  - {fileID: 7008639206170433003, guid: e83d0d5a423a95242a62cff544b243f7, type: 3}
+  - {fileID: 7008639206170433003, guid: cd37faa326c17f94d920e8de88a5180a, type: 3}
+  - {fileID: 7008639206170433003, guid: daf3407e8538d1e48bd8a774b65913a7, type: 3}
   spawnPoint: {fileID: 2090144201}
   targetCenter: {fileID: 2075661709}
   launchForce: 5
