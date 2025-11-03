@@ -27,14 +27,14 @@ public class SmartLauncher : MonoBehaviour
 
     void Start()
     {
-        // --- [수정됨] ---
+       
         // 리스트가 비어있는지 확인하는 로직으로 변경
         if (spawnableFruits == null || spawnableFruits.Count == 0 || spawnPoint == null || targetCenter == null)
         {
             Debug.LogError("SmartLauncher 스크립트에 프리펩 목록이나 필수 오브젝트가 연결되지 않았습니다!");
             return;
         }
-        // --- [수정 완료] ---
+        
         SpawnNextBall();
     }
 
