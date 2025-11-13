@@ -4,10 +4,10 @@ using UnityEngine;
 public class Stage : MonoBehaviour
 {
     // 게임이 이미 멈췄는지 확인하기 위한 변수
-    private bool isGameOver = false;
+    bool isGameOver = false;
 
     // 충돌이 감지되는 순간 호출되는 함수
-    private void OnCollisionEnter(Collision collision)
+    public void OnCollisionEnter(Collision collision)
     {
         // 1. 이미 게임 오버(일시 정지) 상태라면, 더 이상 아무것도 하지 않습니다.
         if (isGameOver) return;
@@ -20,7 +20,7 @@ public class Stage : MonoBehaviour
         }
     }
 
-    private void GameOver()
+    public void GameOver()
     {
         // 4. 게임 오버 상태로 변경 (이 함수가 두 번 이상 실행되는 것을 방지)
         isGameOver = true;
